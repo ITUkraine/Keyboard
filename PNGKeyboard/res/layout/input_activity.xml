@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_dark"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/header_text"
+        android:textColor="@color/grey"
+        android:textSize="16pt" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text_style"
+        android:gravity="top|start"
+        android:hint="@string/edit_text_hint"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/blue" >
+
+        <requestFocus />
+    </EditText>
+
+    <include layout="@layout/keyboard" />
+
+</RelativeLayout>

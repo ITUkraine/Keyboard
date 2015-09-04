@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">PNGKeyboard</string>
+    <string name="png_keyboard">Image Keyboard</string>
+    <string name="subtype_en_US">English (US)</string>
+    <string name="header_text">Please enter the text here to check our cool keyboard:</string>
+    <string name="edit_text_hint">Enter text</string>
+
+</resources>
